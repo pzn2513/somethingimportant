@@ -1,8 +1,10 @@
+[Configuring Onion Services for Tor](https://www.torproject.org/docs/tor-onion-service.html.en)
+
 yum -y install tor
 echo HiddenServiceDir /var/lib/tor/hidden_service/ >> /etc/tor/torrc
 echo HiddenServicePort 80 127.0.0.1:80 >> /etc/tor/torrc
 service tor start
 cat /var/lib/tor/hidden_service/hostname
-chmod 770 -R /var/lib/tor
+chmod 700 -R /var/lib/tor
 
 vim /etc/tor/torrc
