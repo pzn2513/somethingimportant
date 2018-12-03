@@ -4,11 +4,28 @@ Configuring Onion Services for Tor:  https://www.torproject.org/docs/tor-onion-s
 常见问答faq：  https://www.torproject.org/docs/faq.html.en#torrc
 Guide：  https://trac.torproject.org/projects/tor/wiki/TorRelayGuide
 
-yum -y install tor
+sudo su
+Azure..3380058
+yum install -y epel-release
+yum install -y nginx
+service nginx start
+yum install -y tor
 echo HiddenServiceDir /var/lib/tor/hidden_service/ >> /etc/tor/torrc
 echo HiddenServicePort 80 127.0.0.1:80 >> /etc/tor/torrc
 service tor start
 cat /var/lib/tor/hidden_service/hostname
-chmod 700 -R /var/lib/tor
+
 
 vim /etc/tor/torrc
+
+
+http://7h7dqnilcq63waaq.onion/ 日本
+http://2ev2pd2gce3he47o.onion/ 美国
+http://gqfjtpsj4tffkzwy.onion/ 德国
+http://b45vkywgc54efvzt.onion/ 东南亚
+http://mmvqb5puwondvc2o.onion/ 澳洲
+http://2v6pijksrig3ix76.onion/ 韩国
+http://k6d7zcfx3ewlvxih.onion/ 印度
+http://ka6vlnpqru5wzfwa.onion/ 英国
+http://lhuduxyvnn6zeyha.onion/ 香港
+http://qu6uoghz3w7o2kc4.onion/ 瑞典
