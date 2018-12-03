@@ -4,8 +4,6 @@ Configuring Onion Services for Tor:  https://www.torproject.org/docs/tor-onion-s
 常见问答faq：  https://www.torproject.org/docs/faq.html.en#torrc
 Guide：  https://trac.torproject.org/projects/tor/wiki/TorRelayGuide
 
-sudo su
-Azure..3380058
 yum install -y epel-release
 yum install -y nginx
 service nginx start
