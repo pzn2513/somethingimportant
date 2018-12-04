@@ -9,5 +9,5 @@ yum install epel-release -y
 #apt-get install python-pip -y
 yum install python-pip -y
 pip install shadowsocks
-sudo ssserver -p 6969 -k password -m aes-128-cfb --user nobody -d start
+sudo ssserver -p 6969 -k *password* -m aes-256-cfb --user nobody -d start
 #sudo ssserver -d stop
