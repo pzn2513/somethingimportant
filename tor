@@ -9,7 +9,7 @@ yum install -y nginx
 service nginx start
 yum install -y tor
 echo HiddenServiceDir /var/lib/tor/hidden_service/ >> /etc/tor/torrc
-echo HiddenServicePort 80 127.0.0.1:80 >> /etc/tor/torrc
+echo HiddenServicePort 80 127.0.0.1:8080 >> /etc/tor/torrc
 service tor start
 cat /var/lib/tor/hidden_service/hostname
 
