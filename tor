@@ -17,6 +17,12 @@ cat /var/lib/tor/hidden_service/hostname
 vim /etc/tor/torrc
 
 
+
+http://thehiddenwiki.org/
+http://zqktlwi4fecvo6ri.onion/wiki/index.php/Main_Page
+http://5plvrsgydwy2sgce.onion/
+
+
 http://n7nnj7vc4biqwk4s.onion/
 http://2y6th3yicphruuaa.onion/
 http://hvsxpuzbv2ihdbqj.onion/
