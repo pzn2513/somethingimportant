@@ -16,7 +16,7 @@ cat /var/lib/tor/hidden_service/hostname
 
 vim /etc/tor/torrc
 
-
+12.11
 http://jlpdp4bzuauvstfd.onion/
 http://xi3y5zxljvgfh536.onion/
 http://mnx5kltjfyyoado5.onion/
