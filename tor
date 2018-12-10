@@ -17,7 +17,12 @@ cat /var/lib/tor/hidden_service/hostname
 vim /etc/tor/torrc
 
 
+http://jlpdp4bzuauvstfd.onion/
+http://xi3y5zxljvgfh536.onion/
+http://mnx5kltjfyyoado5.onion/
+http://b54gkld2dejhtald.onion:81/
 
+门户导航
 http://thehiddenwiki.org/
 http://zqktlwi4fecvo6ri.onion/wiki/index.php/Main_Page
 http://5plvrsgydwy2sgce.onion/
