@@ -1,5 +1,5 @@
 BBR 是 Google 官方開源的擁塞算法來加速 TCP
-wget -–no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh
+wget -no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh
 chmod +x bbr.sh
 ./bbr.sh
 重启
